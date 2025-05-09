@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    color: aqua !important;
+}
+
+.container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background: yellowgreen;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.text {
+    width: 90%;
+    background-color: red;
+}
+textarea {
+    width: 90%;
+    height: 100px;
+    padding: 10px;
+    margin: 10px 0;
+    
+}
+
+button {
+    background-color: #0071ce;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dark-mode {
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.note {
+    background: orange;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    position: relative;
+    
+}
+
+.delete-btn {
+    background: grey;
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
